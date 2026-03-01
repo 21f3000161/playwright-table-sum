@@ -1,0 +1,12 @@
+{
+  "name": "datadash-qa-sum-tables",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "sum:tables": "node scripts/sum_tables.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
+  }
+}
