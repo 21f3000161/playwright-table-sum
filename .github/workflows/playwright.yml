@@ -2,6 +2,8 @@ name: Playwright Table Sum QA
 
 on:
   workflow_dispatch:
+  push:
+    branches: ["main"]
 
 jobs:
   sum-tables:
